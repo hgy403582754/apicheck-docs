@@ -71,9 +71,8 @@ APICheck 把这些问题变成一次「检测 → 一份可读报告 → 一个�
 
 | 页面 | 截图 |
 | --- | --- |
-| 首页 | ![首页](assets/homepage.png) |
+| API 检测 | ![检测](assets/detect.png) |
 | 服务商排行 | ![排行榜](assets/rankings.png) |
-| 检测方法 | ![方法论](assets/methodology.png) |
 
 ## 源代码
 
