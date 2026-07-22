@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">APICheck 工作流程</title>
+  <desc id="desc">三步流程：粘贴端点与 Key，发起真实请求检测，得到可读报告并对照人工维护的服务商参考排行。</desc>
+  <defs>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B9EFF"/>
+      <stop offset="100%" stop-color="#2DE2C6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="#0A0E1A"/>
+  <rect x="0" y="0" width="1200" height="4" rx="2" fill="url(#accent2)"/>
+
+  <text x="56" y="56" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="28" font-weight="800" fill="#E8EEF6">工作流程</text>
+  <text x="56" y="84" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="18" fill="#8A9BB5">检测 → 报告 → 参考排行</text>
+
+  <!-- stage 1 -->
+  <g transform="translate(56 108)">
+    <rect width="340" height="150" rx="14" fill="#111A2E" stroke="#223049" stroke-width="1.5"/>
+    <circle cx="34" cy="34" r="18" fill="#15324F"/>
+    <text x="34" y="41" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" fill="#2DE2C6">1</text>
+    <text x="64" y="41" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="21" font-weight="700" fill="#E8EEF6">粘贴端点与 Key</text>
+    <text x="24" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">填入中转站地址与你的 API Key，</text>
+    <text x="24" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">检测授权下不留存业务数据。</text>
+  </g>
+
+  <!-- stage 2 -->
+  <g transform="translate(430 108)">
+    <rect width="340" height="150" rx="14" fill="#111A2E" stroke="#223049" stroke-width="1.5"/>
+    <circle cx="34" cy="34" r="18" fill="#15324F"/>
+    <text x="34" y="41" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" fill="#2DE2C6">2</text>
+    <text x="64" y="41" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="21" font-weight="700" fill="#E8EEF6">发起真实检测</text>
+    <text x="24" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">连通性、模型真实性、响应质量</text>
+    <text x="24" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">多维度一次校验。</text>
+  </g>
+
+  <!-- stage 3 -->
+  <g transform="translate(804 108)">
+    <rect width="340" height="150" rx="14" fill="#111A2E" stroke="#223049" stroke-width="1.5"/>
+    <circle cx="34" cy="34" r="18" fill="#15324F"/>
+    <text x="34" y="41" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="20" font-weight="800" fill="#2DE2C6">3</text>
+    <text x="64" y="41" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="21" font-weight="700" fill="#E8EEF6">报告 + 参考排行</text>
+    <text x="24" y="86" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">拿到可读报告，并对照人工</text>
+    <text x="24" y="110" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC',sans-serif" font-size="16" fill="#9FB0C8">维护的服务商参考排行。</text>
+  </g>
+
+  <!-- arrows -->
+  <g fill="none" stroke="#3B9EFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M408 172 l8 11 l-8 11"/>
+    <path d="M782 172 l8 11 l-8 11"/>
+  </g>
+</svg>
